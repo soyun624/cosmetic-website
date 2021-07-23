@@ -28,7 +28,7 @@ const PaymentForm = ({ checkoutToken, nextStep, backStep, shippingData, onCaptur
         line_items: checkoutToken.live.line_items,
         customer: { firstname: shippingData.firstName, lastname: shippingData.lastName, email: shippingData.email },
         shipping: { 
-          name: 'International', 
+          name: 'Primary', 
           street: shippingData.address1, 
           town_city: shippingData.city, 
           county_state: shippingData.shippingSubdivision, 
@@ -43,7 +43,7 @@ const PaymentForm = ({ checkoutToken, nextStep, backStep, shippingData, onCaptur
           },
         },
       };
-
+      console.log("######"+shippingData.shippingOption);
       onCaptureCheckout(checkoutToken.id, orderData);
       timeout();
       
