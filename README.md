@@ -12,17 +12,17 @@ Website: https://nature-cosmetic.netlify.app/
 ## Details
 
 ### Home
-![](docs/home.png)
+![](public/home.png)
 
 ### Shopping Cart
-![](docs/shoppingcart.png)
+![](public/shoppingcart.png)
 
 ### Checkout
-![](docs/checkout.png)
+![](public/checkout.png)
 
 ### Payment Details
-![](docs/paymentdetails.png)
+![](public/paymentdetails.png)
 
 ### Payment Success 
-![](docs/paymentsuccess.png)
+![](public/paymentsuccess.png)
 
